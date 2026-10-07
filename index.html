@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>UNDERTONE — Feel every frequency.</title>
+    
+
+<link
+    rel="icon"
+    type="image/png"
+    href="c:\Users\aksha\OneDrive\Pictures\Screenshots\Screenshot 2026-10-07 183449.png"
+>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <!-- Font Awesome -->
+
+    <link
+        rel="stylesheet"
+        href=""
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- ================================
+         NAVBAR
+    ================================= -->
+
+    <nav>
+
+        <ul>
+
+          <li class="brand">
+
+    <div class="undertoneLogo">
+        U
+    </div>
+
+    UNDERTONE
+
+</li>
+
+
+            <li>Home</li>
+
+            <li>About</li>
+
+        </ul>
+
+    </nav>
+
+
+
+    <!-- ================================
+         MAIN
+    ================================= -->
+
+    <main class="container">
+
+
+        <div class="heading">
+
+
+            <div>
+
+                <p class="small-text">
+                    TUNE IN
+                </p>
+
+                  <h1>
+                    Purple Haze🎧💜
+                  </h1>
+
+                <p class="subtitle">
+                    Feel every frequency.
+                </p>
+
+            </div>
+
+
+            <!-- PLAYLIST COVER -->
+
+            <img
+                src="download.jpg"
+                class="playlistCover"
+                alt="Low-Key Playlist Cover"
+            >
+
+        </div>
+
+
+
+        <!-- ================================
+             SONG LIST
+        ================================= -->
+
+        <div
+            class="songList"
+            id="songList"
+        >
+
+        </div>
+
+
+    </main>
+
+
+
+    <!-- ================================
+         MUSIC PLAYER
+    ================================= -->
+
+    <div class="bottom">
+
+
+        <!-- CURRENT SONG -->
+
+        <div class="songInfo">
+
+
+            <!-- CHANGED: added ID -->
+
+            <img
+                id="masterSongCover"
+                src="cover.jpg"
+                alt="Song Cover"
+            >
+
+
+            <div>
+
+                <span id="masterSongName">
+                    All the Stars
+                </span>
+
+
+                <small id="masterArtist">
+                    Kendrick Lamar, SZA
+                </small>
+            </div>
+
+
+        </div>
+
+
+
+        <!-- PLAYER -->
+
+        <div class="player">
+
+
+            <input
+                type="range"
+                id="myProgressBar"
+                min="0"
+                max="100"
+                value="0"
+            >
+
+
+            <div class="icons">
+
+
+                <i
+                    class="fa-solid fa-backward-step"
+                    id="previous"
+                ></i>
+
+
+                <i
+                    class="fa-solid fa-circle-play"
+                    id="masterPlay"
+                ></i>
+
+
+                <i
+                    class="fa-solid fa-forward-step"
+                    id="next"
+                ></i>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- MUSIC VISUALIZER -->
+
+        <div class="visualizer">
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
