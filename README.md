@@ -2,6 +2,8 @@
 
 ### Feel every frequency.
 
+🌐 **Live Website:** [uundertonee.netlify.app](https://uundertonee.netlify.app)
+
 UNDERTONE is a modern, responsive music player website built using **HTML, CSS and JavaScript**.
 
 It combines a clean dark interface with a premium lavender/purple aesthetic to create a simple and immersive music-listening experience.
@@ -25,11 +27,11 @@ It combines a clean dark interface with a premium lavender/purple aesthetic to c
 
 ## 🛠️ Tech Stack
 
-- **HTML5** — Website structure
-- **CSS3** — Styling, animations and responsive design
-- **JavaScript** — Music player functionality and API integration
-- **JioSaavn API** — Music search
-- **Font Awesome** — Icons
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **JioSaavn API**
+- **Font Awesome**
 
 ---
 
@@ -41,14 +43,10 @@ UNDERTONE/
 ├── index.html
 ├── style.css
 ├── script.js
+├── README.md
 │
 ├── cover.jpg
 ├── download.jpg
 ├── reflectionscover.png
 ├── thoseeyescover.jpg
-├── confideentcover.jpg
-│
-├── All The Stars.mp3
-├── Reflections.mp3
-├── New West - Those Eyes.mp3
-└── Confident.mp3
+└── confideentcover.jpg
